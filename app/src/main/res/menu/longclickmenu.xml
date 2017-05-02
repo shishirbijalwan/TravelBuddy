@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/actiondelete"
+        android:title="Delete"
+        android:visible="false"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom|withText"
+        >
+    </item>
+
+    <item
+        android:id="@+id/actionsort"
+        android:title="Sort"
+        android:icon="@drawable/yearsort"
+        app:showAsAction="ifRoom|withText"
+        >
+    </item>
+</menu>
